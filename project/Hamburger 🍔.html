@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Cheeseburger</title>
+    <style>
+        /* Basic styling to represent the layers visually */
+        #burger-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .bun-top { width: 200px; height: 50px; background-color: #d2a679; border-radius: 100px 100px 0 0; }
+        .lettuce { width: 220px; height: 20px; background-color: #57c125; border-radius: 10px; }
+        .tomato { width: 200px; height: 25px; background-color: #e63946; border-radius: 5px; }
+        .cheese { width: 210px; height: 15px; background-color: #ffd166; }
+        .patty { width: 200px; height: 35px; background-color: #8b4513; border-radius: 10px; }
+        .bun-bottom { width: 200px; height: 40px; background-color: #d2a679; border-radius: 0 0 100px 100px; }
+    </style>
+</head>
+<body>
+
+    <main id="burger-container">
+        <div class="bun-top"></div>
+        <div class="lettuce"></div>
+        <div class="tomato"></div>
+        <div class="cheese"></div>
+        <div class="patty"></div>
+        <div class="bun-bottom"></div>
+    </main>
+
+</body>
+</html>
